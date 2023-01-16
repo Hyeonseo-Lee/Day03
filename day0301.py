@@ -9,8 +9,8 @@
 
 #    if 1 < dan < 10:
     #if dan >= 2 and dan <= 9:
-#        i = 1
-#        while i < 10:
+#        for i in range(1, 10, 1):
+#
 #            print('{0} * {1} = {2}'.format(dan, i, dan*i))
 #            i = i + 1
 #        break
