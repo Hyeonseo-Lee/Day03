@@ -1,13 +1,26 @@
-print("I'm a boy")
 
-#army = '''우리는 국가와 국민에 충성을 다하는 대한민국 육군이다.하나 우리는 자유민주주의를 수호하며 조국 통일의 역군이 된다'''
 
-army ='우리는 국가와 국민에 충성을 다하는 대한민국 육군이다.\t하나 우리는 자유민주주의 대한민국 역군이 된다.'
+subjects = ' $ python, data structure, database      $$$'
+print(subjects.find('data'), subjects.index('data'))
+print(subjects.find('help')) # -1로 표현
+print(subjects.index('help')) # Error가 뜸
+print(subjects.rfind('data'), subjects.rindex('data'))
+print(subjects.count('a'))
 
-print(army)
 
-start = '나' * 4 + '\n'
-middle = '헤이' * 3 + '\n'
-end = '안녕.'
-print(start + start + middle + middle)
 
+subjects = ' $  python, data structure, databse    '
+print(subjects.strip('$'))
+
+inha = 'a duck goes into a sea'
+print(inha.replace('a ', 'a nice'))
+pokemons_list = ['피카츄', '꼬부기', '이상해', '파이리']
+pokemons_string = '/'.join(pokemons_list)
+print(pokemons_string)
+univ = 'Inha University'
+print(univ.split('i'))
+print(len(univ))
+print(univ[::2])
+print(univ[5:])
+print(univ[5:15])
+print(univ[-10:])
