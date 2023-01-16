@@ -1,15 +1,9 @@
-#5.5
+#5.6
 
-letter = '''Dear {salutation} {name},
-Thank you for your letter. We are sorry that our {product}
-{verbed} in your {room}. Please note that it should never
-be used in a {room}, especially near any {animals}.
-Send us your receipt and {amount} for shipping and handling.
-We will send you another {product} that, in our tests,
-is {percent}% less likely to have {verbed}.
-Thank you for your support.'''.format(salutation='lovely', name='Lee HanSeo', product='fan', verbed='messed', room='living room', animals='dog', amount=2, percent=70)
+name1 = 'duck'
+name2 = 'gourd'
+name3 = 'spitz'
 
-print(letter)
-
-
-
+print('%sy Mc%sface'% (name1.capitalize(),name1.capitalize()))
+print('%sy Mc%sface'% (name2.capitalize(),name2.capitalize()))
+print('%sy Mc%sface'% (name3.capitalize(),name3.capitalize()))
