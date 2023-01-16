@@ -1,9 +1,14 @@
-#5.8
+#6.2
 
-name1 = 'duck'
-name2 = 'gourd'
-name3 = 'spitz'
+guess_me = 7
+number = 1
 
-print(f'{name1.capitalize()}y Mc{name1.capitalize()}face')
-print(f'{name2.capitalize()}y Mc{name2.capitalize()}face')
-print(f'{name3.capitalize()}y Mc{name3.acapitalize()}face')
+while number <=8:
+    if number < guess_me:
+        print('too low')
+    if number == guess_me:
+        print('found it!')
+    if number > guess_me:
+        print('oops')
+        break
+    number = number + 1
